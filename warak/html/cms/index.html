@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/default.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="css/cms.css" type="text/css" />
+
+	<script src="/libs/qimessaging/2/qimessaging.js"></script>
+	<!--<script src="/libs/qimessaging/1.0/qimessaging.js"></script>-->
+	<script src="/lib/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<!-- ナビゲーションバー -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<div class="navbar-brand">
+			<!--<img src="./icon.png" width="50" height="50" alt="">-->
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsCms" aria-controls="navbarsCms"
+		 aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarsCms">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<div class="nav-link" id="BtnHome" data-btn-id="100">Pepper イベント</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- メイン -->
+	<main role="main" class="container">
+
+		<section id="SceneDummy" style="display: none;"></section>
+
+		<!-- HOME画面 -->
+		<section id="SceneStart" style="display: none;">
+
+			<div class="welcome-title">
+				<p class="lead">イベント発火用のボタンをここに定義します</p>
+			</div>
+
+			<div class="row">
+				<table class="table table-borderless">
+					<tbody>
+						<tr>
+							<td><button type="button" class="btn btn-info btn-lg btn-block" event-name="say" event-param="こんにちは">発話(say)</button></td>
+							<td><button type="button" class="btn btn-primary btn-lg btn-block" event-name="custom" event-param="1">カスタム1</button></td>
+							<td><button type="button" class="btn btn-danger btn-lg btn-block" event-name="motion" event-param="1">モーション1</button></td>
+							<td><button type="button" class="btn btn-warning btn-lg btn-block" event-name="eye" event-param="1">目の色1</button></td>
+						</tr>
+						<tr>
+							<td><button type="button" class="btn btn-secondary btn-lg btn-block" event-name="tablet" event-param="1">画像1</button></td>
+							<td><button type="button" class="btn btn-outline-primary btn-lg btn-block" event-name="tabletcolor" event-param="1">タブレット色1</button></td>
+							<td><button type="button" class="btn btn-outline-info btn-lg btn-block" event-name="animatedsay" event-param="こんにちは">発話(Animated)</button></td>
+							<td><button type="button" class="btn btn-dark btn-lg btn-block" event-name="sound" event-param="1">サウンド1</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- フッター -->
+	<footer class="container">
+		<div class="mt-5">
+			<!--<p>&copy;</p>-->
+		</div>
+	</footer>
+
+	<!--<script src="js/jquery-3.3.1.slim.min.js"></script>-->
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/tapper_cms.js"></script>
+	<script src="js/contents.js"></script>
+
+</body>
+
+</html>

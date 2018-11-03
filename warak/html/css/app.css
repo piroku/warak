@@ -1,0 +1,30 @@
+body {
+    background-color: #000;
+}
+
+.btn.touched {
+    background: #bbb;
+}
+
+.btn.selected{
+    background: #888;
+    color: #fff;
+}
+
+/* スプラッシュ画面 */
+/*
+#PageSplash{
+    background-image:url(../images/preloads/image1.jpg);
+}
+*/
+
+#PageSplash #splash-title{
+    position: fixed;
+    top: 640px;
+    left: 620px;
+    color: white;
+    width: 600px;
+    height: 200px;
+    font-size: 48pt;
+    text-align: right;
+}
