@@ -148,4 +148,12 @@
             <translation type="obsolete">終了します</translation>
         </message>
     </context>
+    <context>
+        <name>slack_core/behavior_1/behavior.xar:/Slack/Say</name>
+        <message>
+            <source>接続オッケーーっ</source>
+            <comment>Text</comment>
+            <translation type="obsolete">接続オッケーーっ</translation>
+        </message>
+    </context>
 </TS>

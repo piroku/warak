@@ -29,6 +29,14 @@ Tapper.contents = {
         src = param.src;
         console.log(src);
         $('#PageImage').css('background-image', 'url(images/preloads/' + src + ')');
+    },
+
+    onPageQr: function (param) {
+        console.log("onPageQr.");
+    },
+
+    onPageBlank: function (param) {
+        console.log("onPageBlank.");
     }
 
 }

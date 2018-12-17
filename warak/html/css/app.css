@@ -28,3 +28,9 @@ body {
     font-size: 48pt;
     text-align: right;
 }
+
+.qrcode {
+    position: fixed;
+    top: 180px;
+    left : 360px;
+}

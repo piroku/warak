@@ -39,6 +39,43 @@
         <File name="se_maoudamashii_instruments_piano1_8do" src="html/audio/se_maoudamashii_instruments_piano1_8do.ogg" />
         <File name="se_maoudamashii_onepoint15" src="html/audio/se_maoudamashii_onepoint15.ogg" />
         <File name="se_maoudamashii_onepoint32" src="html/audio/se_maoudamashii_onepoint32.ogg" />
+        <File name="qr" src="lib/bin/qr" />
+        <File name="DESCRIPTION" src="lib/qrcode-6.0.dist-info/DESCRIPTION.rst" />
+        <File name="INSTALLER" src="lib/qrcode-6.0.dist-info/INSTALLER" />
+        <File name="METADATA" src="lib/qrcode-6.0.dist-info/METADATA" />
+        <File name="RECORD" src="lib/qrcode-6.0.dist-info/RECORD" />
+        <File name="WHEEL" src="lib/qrcode-6.0.dist-info/WHEEL" />
+        <File name="entry_points" src="lib/qrcode-6.0.dist-info/entry_points.txt" />
+        <File name="metadata" src="lib/qrcode-6.0.dist-info/metadata.json" />
+        <File name="top_level" src="lib/qrcode-6.0.dist-info/top_level.txt" />
+        <File name="LUT" src="lib/qrcode/LUT.py" />
+        <File name="__init__" src="lib/qrcode/__init__.py" />
+        <File name="base" src="lib/qrcode/base.py" />
+        <File name="console_scripts" src="lib/qrcode/console_scripts.py" />
+        <File name="constants" src="lib/qrcode/constants.py" />
+        <File name="exceptions" src="lib/qrcode/exceptions.py" />
+        <File name="__init__" src="lib/qrcode/image/__init__.py" />
+        <File name="base" src="lib/qrcode/image/base.py" />
+        <File name="pil" src="lib/qrcode/image/pil.py" />
+        <File name="pure" src="lib/qrcode/image/pure.py" />
+        <File name="svg" src="lib/qrcode/image/svg.py" />
+        <File name="main" src="lib/qrcode/main.py" />
+        <File name="release" src="lib/qrcode/release.py" />
+        <File name="__init__" src="lib/qrcode/tests/__init__.py" />
+        <File name="svg" src="lib/qrcode/tests/svg.py" />
+        <File name="test_example" src="lib/qrcode/tests/test_example.py" />
+        <File name="test_qrcode" src="lib/qrcode/tests/test_qrcode.py" />
+        <File name="test_release" src="lib/qrcode/tests/test_release.py" />
+        <File name="test_script" src="lib/qrcode/tests/test_script.py" />
+        <File name="util" src="lib/qrcode/util.py" />
+        <File name="qr" src="lib/share/man/man1/qr.1" />
+        <File name="INSTALLER" src="lib/six-1.12.0.dist-info/INSTALLER" />
+        <File name="LICENSE" src="lib/six-1.12.0.dist-info/LICENSE" />
+        <File name="METADATA" src="lib/six-1.12.0.dist-info/METADATA" />
+        <File name="RECORD" src="lib/six-1.12.0.dist-info/RECORD" />
+        <File name="WHEEL" src="lib/six-1.12.0.dist-info/WHEEL" />
+        <File name="top_level" src="lib/six-1.12.0.dist-info/top_level.txt" />
+        <File name="six" src="lib/six.py" />
     </Resources>
     <Topics />
     <IgnoredPaths />
