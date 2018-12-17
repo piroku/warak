@@ -29,6 +29,12 @@ Tapper.contents = {
             Tapper.view.changeScene('{"id":"SceneStart"}');
         });
 
+        $('#saytext').on('change', function () {
+            var node = $(this);
+            var text = node.val();
+            $('#saytextbutton').attr('event-param', text);
+        });
+
     },
 
     onBtnSound: function (param) {

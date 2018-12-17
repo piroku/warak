@@ -27,14 +27,11 @@
     <description lang="en_US">for warakkason</description>
     <description lang="ja_JP">for warakkason</description>
    </descriptions>
-   <triggerSentences/>
-   <loadingResponses/>
-   <autonomous/>
    <permissions/>
   </behaviorContent>
  </contents>
  <requirements>
-  <naoqiRequirement minVersion="2.5.5" maxVersion="2.5.10"/>
+  <naoqiRequirement maxVersion="2.5.10" minVersion="2.5.5"/>
   <robotRequirement model="JULIETTE_Y20"/>
  </requirements>
 </package>
