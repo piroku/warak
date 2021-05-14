@@ -79,7 +79,4 @@
     </Resources>
     <Topics />
     <IgnoredPaths />
-    <Translations auto-fill="ja_JP">
-        <Translation name="translation_ja_JP" src="translations/translation_ja_JP.ts" language="ja_JP" />
-    </Translations>
 </Package>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="1.0.0" uuid="warak-44da1e">
+<package uuid="warak-44da1e" version="1.0.0">
  <names>
   <name lang="en_US">warak</name>
   <name lang="ja_JP">warak</name>
@@ -10,6 +10,7 @@
  </descriptions>
  <supportedLanguages>
   <language>ja_JP</language>
+  <language>en_US</language>
  </supportedLanguages>
  <descriptionLanguages>
   <language>en_US</language>

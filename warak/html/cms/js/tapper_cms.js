@@ -147,7 +147,8 @@ Tapper.view = {
         $(document).on('click', '[event-name]', function () {
             var node = $(this);
             console.log(node.attr('event-name'));
-            var result = [node.attr('event-name'), node.attr('event-param')];
+            // var result = [node.attr('event-name'), node.attr('event-param')];
+            var result = '{ "name":' + '"' + node.attr('event-name') + '"' + ', "param":' + '"' + node.attr('event-param') + '"' + '}';
             Tapper.utl.raiseEvent("Tapper/View/ButtonTouched", result);
         });
     },
